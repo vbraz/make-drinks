@@ -24,10 +24,12 @@ body {
 hr {border-top: 1px solid #ccc; }
 h1 {
     font-family: 'Questrial', sans-serif;
+    font-weight: bold;
     font-size: 3rem;
 }
 h3 {
     font-family: 'Questrial', sans-serif;
+    font-weight: bold;
 }
 .card, .card img, img{
     border: none;
@@ -39,7 +41,12 @@ h3 {
     background: #f1f3f4;
 }
 
-.affix {
-    top:50px;
-    position:fixed;
+.icon-sugesta {
+    height: 27px;
+    margin-bottom: 5px;
+}
+.icon-title {
+    height: 32px;
+    margin-bottom: 7px;
+    border-radius: 0;
 }
