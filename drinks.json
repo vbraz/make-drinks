@@ -1,6 +1,7 @@
 [
   {
     "name": "Caipirinha",
+    "text": "Nacionalíssima, a caipirinha é ótima como aperitivo ou para acompanhar a tradicional feijoada.",
     "pic": "https://cdn.panelinha.com.br/receita/1365044400000-Caipirinha-classica-de-limao.jpg",
     "ingredients": [
       {
@@ -27,42 +28,34 @@
   },
   {
     "name": "Dry Martini",
+    "text": "A versão clássica do drinque favorito de James Bond",
     "pic": "https://cdn.panelinha.com.br/receita/1377054000000-Dry-martini.jpg",
     "ingredients": [
       {
-        "ingredient": "45 a 60ml de gim"
+        "ingredient": "3 doses de gim (150 ml)"
       },
       {
-        "ingredient": "Uma gota a 30ml de vermute doce ou seco, dependendo do seu gosto"
+        "ingredient": "½ dose de vermute seco (25 ml)"
       },
       {
-        "ingredient": "Um pouco de angostura"
+        "ingredient": "cubos de gelo"
       },
       {
-        "ingredient": "cubos de gelo a gosto"
+        "ingredient": "casquinha de limão siciliano para perfumar"
       },
       {
-        "ingredient": "Azeitona ou rodela de limão"
+        "ingredient": "1 azeitona para decorar"
       }
     ],
     "make": [
       {
-        "step": "Coloque gelo na coqueteleira. Não economize; gelo é um componente necessário para gelar e misturar os outros ingredientes."
+        "step": "Num copo misturador cheio de gelo, junte o gim e o vermute. Mexa em círculos com uma colher bailarina (sem partir demais o gelo) até a mistura estar bem gelada."
       },
       {
-        "step": "Adicione o vermute. O tipo e a quantidade do vermute variam de acordo com o gosto de quem faz (de algumas gotas a uma dose). Algumas pessoas gostam de seus martinis “perfeitos” – ou seja, feitos com 50% de vermute doce (ou italiano) e 50% seco (ou francês), assim como é feito em bares."
+        "step": "Apoie uma peneira para coquetelaria na borda de uma taça para Martini e despeje a mistura. Com as mãos, torça a casca de limão siciliano (isto ajuda a liberar seus óleos) na borda da taça."
       },
       {
-        "step": "Mexa e despeje na taça. Passe vermute pela tava para formar uma película e jogue fora. Isso vai tornar o martini mais seco. Se estiver usando vodka, pode usar uma coqueteleira ou mexer o martini com uma colher. Você pode usar o copo da coqueteleira para mexer ou bater, se quiser. Algumas pessoas insistem que o gim nunca deve ser batido, mas sempre mexido para evitar “machucá-lo”. Experimente os dois e veja qual você prefere! Você também pode adicionar um pouco de angostura. Mas cuidado ao adicionar esse tipo de bebida porque só uma gota já faz diferença, pois é muito concentrado. Comece com menos e adicione mais se desejar. Mexa ou bata."
-      },
-      {
-        "step": "A água resultante do gelo derretido é um ingrediente necessário para um martini bem feito, pois “quebra” um pouco o álcool."
-      },
-      {
-        "step": "Despeje os ingredientes em uma taça de martini gelada."
-      },
-      {
-        "step": "Enfeite ele com azeitona ou um rodela de limão e beba."
+        "step": "Decore com a azeitona e sirva a seguir."
       }
     ]
   }
