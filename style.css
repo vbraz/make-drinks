@@ -7,6 +7,9 @@ h1 {
     font-weight: 900;
     font-size: 3rem;
 }
+h3 {
+    font-weight: 900;
+}
 .card, .card img{
     border: none;
     border-radius: 1rem;
