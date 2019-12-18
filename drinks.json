@@ -58,7 +58,8 @@
         "step": "Decore com a azeitona e sirva a seguir."
       }
     ]
-  },  {
+  },
+  {
     "name": "Mojito",
     "text": "O mojito, drinque a base de rum quase primo da caipirinha, é delicioso e super refrescante graças as folhas frescas de hortelã. Irresistível!",
     "pic": "https://cdn.panelinha.com.br/receita/1363748400000-Mojito.jpg",
@@ -94,6 +95,30 @@
       },
       {
         "step": "Preencha o copo com cubos de gelo e complete com club soda (ou água com gás). Sirva a seguir."
+      }
+    ]
+  },
+  {
+    "name": "Campari Soda",
+    "text": "Com poucos ingredientes e apenas um passo, você prepara um drinque charmoso, com visual e sabor incríveis. Perfeito para embalar o fim de uma tarde de verão, uma festinha ou o happy hour.",
+    "pic": "https://cdn.panelinha.com.br/receita/1530653619673-campari-soda.jpg",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de Campari (50 ml, cerca de ¼ de xícara)"
+      },
+      {
+        "ingredient": "3 doses de club soda gelado"
+      },
+      {
+        "ingredient": "3 gomos de laranja"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Num copo baixo, coloque 3 gomos de laranja e preencha com cubos de gelo. Junte o campari e complete com club soda. Misture com uma colher e sirva a seguir."
       }
     ]
   }

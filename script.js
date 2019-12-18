@@ -1,4 +1,4 @@
-function list_cards(){
+function all(){
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
@@ -15,9 +15,10 @@ function list_cards(){
 				card += "</div>";
 			}
 			card += "</div>";
-			document.getElementById("card").innerHTML += card;
+			document.getElementById("all").innerHTML += card;
 		}
 	};
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token=ABZUC74YQ6YYGLX4HKTPN3K57I74K", true);
+	var key = "ABZUC75BA4HK5TTR5KNOFGC57JILK";
+	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
 	xmlhttp.send();
 }
