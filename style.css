@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
+@media (prefers-color-scheme: dark) {
+    body, .card { background: #333; color:#f1f1f1; }
+    .btn { color: #212529; background-color: #f8f9fa; border-color: #f8f9fa; }
+    hr {border-top: 1px solid #f1f1f1; }
+  }
+  @media (prefers-color-scheme: light) {
+    body, .card { background: #fff; color:#333; }
+    .btn { color: #fff; background-color: #343a40; border-color: #343a40; }
+    hr {border-top: 1px solid #333333; }
+  }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -10,7 +22,7 @@ h1 {
 h3 {
     font-weight: 900;
 }
-.card, .card img{
+.card, .card img, img{
     border: none;
     border-radius: 1rem;
 }

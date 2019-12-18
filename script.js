@@ -10,6 +10,8 @@ function start(){
 }
 
 function all(){
+	document.getElementById("title").innerHTML = "Make Drinks";
+	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman? Explore o saboroso mundo do TheBar.com e descubra as melhores receitas de...";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
@@ -17,9 +19,9 @@ function all(){
 			var card = "<div class='card-columns'>";
 			for(var i = 0; i < myObj.length; i++) {
 				//console.log(myObj[i].name);
-				card += "<div class='card col-3-md mb-4' onclick=\"window.location.hash='"+myObj[i].name+"'; start();\">";
+				card += "<div class='card col-3-md mb-4' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 				card += "<h3>"+myObj[i].name+"</h3>";
-				card += "<img src='"+myObj[i].pic+"' class='card-img-top' alt='"+myObj[i].name+"'>";
+				card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow' alt='"+myObj[i].name+"'>";
 				card += "<div class='card-body p-0 pt-1'>";
 				card += myObj[i].text;
 				card += "</div>";
@@ -29,7 +31,7 @@ function all(){
 			document.getElementById("all").innerHTML += card;
 		}
 	};
-	var key = "ABZUC72SBGFANEDVDRXVGQ257J55Q";
+	var key = "ABZUC73NLPCSYLLVHTRBQCC57KN76";
 	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
 	xmlhttp.send();
 }
@@ -39,24 +41,33 @@ function detail(hash){
 	xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			var myObj = JSON.parse(this.responseText);
-			var detail = "";
+			var detail = "", ingredient = "", make = "", count = 1;
 			for(var i = 0; i < myObj.length; i++) {
-				if(hash == "#"+myObj[i].name){
-					//console.log(myObj[i].name);
-					detail += "<div class='card col-3-md mb-4' onclick=\"window.location.hash='"+myObj[i].name+"'; start();\">";
-					detail += "<h3>"+myObj[i].name+"</h3>";
-					detail += "<img src='"+myObj[i].pic+"' class='card-img-top' alt='"+myObj[i].name+"'>";
-					detail += "<div class='card-body p-0 pt-1'>";
-					detail += myObj[i].text;
-					detail += "</div>";
-					detail += "</div>";
+				if(hash == "#"+myObj[i].id){
+					for(var ii = 0; ii < myObj[i].ingredients.length; ii++) {
+						ingredient += " - "+myObj[i].ingredients[ii].ingredient+"<br>";
+					}
+					for(var ii = 0; ii < myObj[i].make.length; ii++) {
+						make += "<p><b>"+count+".</b> "+myObj[i].make[ii].step+"</p>";
+						count = count + 1;
+					}
+					break;
 				}
 			}
-			detail += "<center><button type='button' class='btn btn-dark' onclick=\"window.location.hash=''; start();\">voltar</button></center>";
+			detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='"+myObj[i].name+"'></center>";
+			detail += "<h3>Modo de preparo</h3>"
+			detail += ingredient;
+			detail += "<hr class='mt-3 mb-3'>";
+			detail += "<h3>Ingredientes</h3>"
+			detail += make;
+			detail += "<center><button type='button' class='btn mt-3 mb-3 pr-5 pl-5 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button></center>";
+
+			document.getElementById("title").innerHTML = myObj[i].name;
+			document.getElementById("subtitle").innerHTML = myObj[i].text;
 			document.getElementById("detail").innerHTML += detail;
 		}
 	};
-	var key = "ABZUC72SBGFANEDVDRXVGQ257J55Q";
+	var key = "ABZUC73NLPCSYLLVHTRBQCC57KN76";
 	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
 	xmlhttp.send();
 }
