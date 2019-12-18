@@ -31,8 +31,7 @@ function all(){
 			document.getElementById("all").innerHTML += card;
 		}
 	};
-	var key = "ABZUC73NLPCSYLLVHTRBQCC57KN76";
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
+	xmlhttp.open("GET", "https://make-drinks.web.app/drinks.json", true);
 	xmlhttp.send();
 }
 
@@ -67,7 +66,6 @@ function detail(hash){
 			document.getElementById("detail").innerHTML += detail;
 		}
 	};
-	var key = "ABZUC73NLPCSYLLVHTRBQCC57KN76";
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
+	xmlhttp.open("GET", "https://make-drinks.web.app/drinks.json", true);
 	xmlhttp.send();
 }
