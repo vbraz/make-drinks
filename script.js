@@ -29,7 +29,7 @@ function all(){
 			document.getElementById("all").innerHTML += card;
 		}
 	};
-	var key = "ABZUC73GBWANQYYQ5MK7J3S57JNE2";
+	var key = "ABZUC72SBGFANEDVDRXVGQ257J55Q";
 	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
 	xmlhttp.send();
 }
@@ -56,7 +56,7 @@ function detail(hash){
 			document.getElementById("detail").innerHTML += detail;
 		}
 	};
-	var key = "ABZUC73GBWANQYYQ5MK7J3S57JNE2";
+	var key = "ABZUC72SBGFANEDVDRXVGQ257J55Q";
 	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token="+key, true);
 	xmlhttp.send();
 }
