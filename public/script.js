@@ -31,7 +31,7 @@ function all(){
 			document.getElementById("all").innerHTML += card;
 		}
 	};
-	xmlhttp.open("GET", "https://make-drinks.web.app/drinks.json", true);
+	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 }
 
@@ -59,13 +59,16 @@ function detail(hash){
 			detail += "<hr class='mt-3 mb-3'>";
 			detail += "<h3>Ingredientes</h3>"
 			detail += make;
-			detail += "<center><button type='button' class='btn mt-3 mb-3 pr-5 pl-5 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button></center>";
+			detail += "<center>";
+			detail += "<button type='button' class='btn btn-wb mt-3 mb-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";
+			detail += "<a href='https://wa.me/?text=https://make-drinks.firebaseapp.com/"+hash+"' role='button' class='btn  btn-success mt-3 mb-3 rounded-pill'>whatsapp</a>";
+			detail += "</center>";
 
 			document.getElementById("title").innerHTML = myObj[i].name;
 			document.getElementById("subtitle").innerHTML = myObj[i].text;
 			document.getElementById("detail").innerHTML += detail;
 		}
 	};
-	xmlhttp.open("GET", "https://make-drinks.web.app/drinks.json", true);
+	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 }
