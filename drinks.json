@@ -58,5 +58,43 @@
         "step": "Decore com a azeitona e sirva a seguir."
       }
     ]
+  },  {
+    "name": "Mojito",
+    "text": "O mojito, drinque a base de rum quase primo da caipirinha, é delicioso e super refrescante graças as folhas frescas de hortelã. Irresistível!",
+    "pic": "https://cdn.panelinha.com.br/receita/1363748400000-Mojito.jpg",
+    "ingredients": [
+      {
+        "ingredient": "1 limão"
+      },
+      {
+        "ingredient": "1 dose de rum branco (50 ml)"
+      },
+      {
+        "ingredient": "3 ramos de hortelã"
+      },
+      {
+        "ingredient": "1 colher (chá) de açúcar"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      },
+      {
+        "ingredient": "club soda ou água com gás para completar"
+      }
+    ],
+    "make": [
+      {
+        "step": "Lave e seque bem os ramos de hortelã e o limão."
+      },
+      {
+        "step": "Junte dois ramos de hortelã e esfregue bem as folhas no interior e na borda de um copo alto. Ele deve ficar bem perfumado."
+      },
+      {
+        "step": "Numa tábua, corte o limão com a casca ao meio e despreze as sementes. Corte uma das metades em quatro partes e transfira para um copo alto. Adicione o açúcar, as folhas de hortelã restantes e, com um macerador, amasse bem. Junte a dose de rum e misture."
+      },
+      {
+        "step": "Preencha o copo com cubos de gelo e complete com club soda (ou água com gás). Sirva a seguir."
+      }
+    ]
   }
 ]

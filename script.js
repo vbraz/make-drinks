@@ -18,6 +18,6 @@ function list_cards(){
 			document.getElementById("card").innerHTML += card;
 		}
 	};
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token=ABZUC72EMOTW6DRAZBFMVP257I6Z4", true);
+	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/drinks.json?token=ABZUC74YQ6YYGLX4HKTPN3K57I74K", true);
 	xmlhttp.send();
 }
