@@ -31,7 +31,8 @@ function all(){
 			document.getElementById("all").innerHTML += card;
 		}
 	};
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
+	xmlhttp.open("GET", "drinks.json", true);
+	//xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 }
 
@@ -69,6 +70,7 @@ function detail(hash){
 			document.getElementById("detail").innerHTML += detail;
 		}
 	};
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
+	xmlhttp.open("GET", "drinks.json", true);
+	//xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 }
