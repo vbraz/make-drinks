@@ -1,0 +1,37 @@
+[debug] [2019-12-19T02:28:55.495Z] ----------------------------------------------------------------------
+[debug] [2019-12-19T02:28:55.498Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-12-19T02:28:55.498Z] CLI Version:   7.10.0
+[debug] [2019-12-19T02:28:55.498Z] Platform:      darwin
+[debug] [2019-12-19T02:28:55.498Z] Node Version:  v12.13.0
+[debug] [2019-12-19T02:28:55.539Z] Time:          Thu Dec 19 2019 00:28:55 GMT-0200 (GMT-02:00)
+[debug] [2019-12-19T02:28:55.539Z] ----------------------------------------------------------------------
+[debug] [2019-12-19T02:28:55.539Z] 
+[debug] [2019-12-19T02:28:55.553Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-19T02:28:55.553Z] > authorizing via signed-in user
+[debug] [2019-12-19T02:28:55.554Z] [iam] checking project make-drinks for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-19T02:28:55.556Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-19T02:28:55.557Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-19T02:28:55.804Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-19T02:28:55.815Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/make-drinks:testIamPermissions  
+
+[debug] [2019-12-19T02:28:56.821Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-19T02:28:56.823Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/make-drinks  
+ 
+[debug] [2019-12-19T02:28:58.161Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'make-drinks'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-12-19T02:28:58.169Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/make-drinks/versions  
+
+[debug] [2019-12-19T02:28:59.987Z] <<< HTTP RESPONSE 200
+[info] i  hosting[make-drinks]: beginning deploy...
+[info] i  hosting[make-drinks]: found 5 files in public
+[debug] [2019-12-19T02:29:00.012Z] [hosting] hash cache [cHVibGlj] stored for 5 files
+[debug] [2019-12-19T02:29:00.012Z] [hosting][hash queue][FINAL]
+[debug] [2019-12-19T02:29:00.012Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/make-drinks/versions/bd0605a03bf2cff2:populateFiles  
+ <request body omitted>
+[debug] [2019-12-19T02:29:01.497Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-19T02:29:01.503Z] [hosting][populate queue][FINAL]
+[debug] [2019-12-19T02:29:01.503Z] [hosting] uploads queued: 2

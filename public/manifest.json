@@ -1,0 +1,8 @@
+{
+    "name": "Make Drink",
+    "short_name": "Make Drink",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#F!F!F!"
+  }

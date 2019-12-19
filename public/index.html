@@ -7,10 +7,38 @@
     <meta name="revisit-after" content="1 day">
     <meta name="language" content="Portuguese">
     <meta name="generator" content="N/A">
+    <link rel="canonical" href="https://make-drinks.web.app/"/>
+    <link rel="manifest" href="manifest.json">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CODELAB: Add iOS meta tags and icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Make Drinks">
+    <meta name="theme-color" content="#333333" />
+    <!-- <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Make Drinks</title>
+    <!-- push -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCTDc9LQ48H2I2R6Tr-l5HD9qoLUqme7qo",
+        authDomain: "make-drinks.firebaseapp.com",
+        databaseURL: "https://make-drinks.firebaseio.com",
+        projectId: "make-drinks",
+        storageBucket: "make-drinks.appspot.com",
+        messagingSenderId: "426384799290",
+        appId: "1:426384799290:web:8833647e32138e86bf6703",
+        measurementId: "G-F2J4JT0B2D"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
 
     <script defer src="/__/firebase/7.6.0/firebase-app.js"></script>
     <script defer src="/__/firebase/7.6.0/firebase-auth.js"></script>
