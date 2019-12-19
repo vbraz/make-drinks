@@ -35,3 +35,36 @@
 [debug] [2019-12-19T02:29:01.497Z] <<< HTTP RESPONSE 200
 [debug] [2019-12-19T02:29:01.503Z] [hosting][populate queue][FINAL]
 [debug] [2019-12-19T02:29:01.503Z] [hosting] uploads queued: 2
+[debug] [2019-12-19T02:29:04.993Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[make-drinks]: file upload complete
+[debug] [2019-12-19T02:29:04.994Z] [hosting] deploy completed after 5005ms
+[debug] [2019-12-19T02:29:05.149Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "make-drinks"
+    },
+    "site": "make-drinks",
+    "version": "sites/make-drinks/versions/bd0605a03bf2cff2"
+  }
+]
+[info] i  hosting[make-drinks]: finalizing version...
+[debug] [2019-12-19T02:29:05.151Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/make-drinks/versions/bd0605a03bf2cff2?updateMask=status  
+
+[debug] [2019-12-19T02:29:06.421Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-19T02:29:06.421Z] [hosting] finalized version for make-drinks:
+[info] ✔  hosting[make-drinks]: version finalized
+[info] i  hosting[make-drinks]: releasing new version...
+[debug] [2019-12-19T02:29:06.422Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/make-drinks/releases?version_name=sites/make-drinks/versions/bd0605a03bf2cff2  
+
