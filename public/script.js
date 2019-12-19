@@ -2,6 +2,7 @@
 function start(){
 	document.getElementById("detail").innerHTML = "";
 	document.getElementById("all").innerHTML = "";
+	document.getElementById("search").innerHTML = "";
 	var hash = window.location.hash;
 	var xmlhttp = new XMLHttpRequest();
 
@@ -21,12 +22,13 @@ function start(){
 function all(myObj){
 	document.getElementById("title").innerHTML = "Make Drinks";
 	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman? Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
+	search();
 	var card = "<div class='card-columns'>";
 	for(var i = 0; i < myObj.length; i++) {
 		//console.log(myObj[i].name);
 		card += "<div class='card col-3-md mb-4' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 		card += "<h3>"+myObj[i].name+"</h3>";
-		card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow' alt='"+myObj[i].name+"'>";
+		card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
 		card += "<div class='card-body p-0 pt-1'>";
 		card += "<p class='lead'>"+myObj[i].text+"</p>";
 		card += "</div>";
@@ -69,9 +71,11 @@ function detail(hash, myObj){
 
 
 function search(){
-	document.getElementById("search").innerHTML = "<form>";
-	document.getElementById("search").innerHTML += "<div class='form-group'>";
-	document.getElementById("search").innerHTML += "<input type='search' class='form-control' id='' aria-describedby=''>";
-	document.getElementById("search").innerHTML += "<small id='' class='form-text text-muted'></small>";
-	document.getElementById("search").innerHTML += "</div>";
+	var search = "<form>";
+	search += "<div class='form-group mt-4 mb-4'>";
+	search += "<input type='search' class='form-control rounded-pill' id='' aria-describedby='' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
+	search += "<small id='' class='form-text text-muted'></small>";
+	search += "</div>";
+	search += "</form>";
+	document.getElementById("search").innerHTML = search;
 }
