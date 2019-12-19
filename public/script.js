@@ -53,7 +53,7 @@ function detail(hash, myObj){
 		}
 	}
 	hash = hash.replace("#","%23");
-	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='"+myObj[i].name+"'></center>";
+	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
 	detail += "<h3>Ingredientes</h3>"
 	detail += ingredient;
 	detail += "<hr class='mt-3 mb-3'>";
@@ -73,8 +73,7 @@ function detail(hash, myObj){
 function search(){
 	var search = "<form>";
 	search += "<div class='form-group mt-4 mb-4'>";
-	search += "<input type='search' class='form-control rounded-pill' id='' aria-describedby='' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
-	search += "<small id='' class='form-text text-muted'></small>";
+	search += "<input type='search' class='form-control rounded-pill' id='' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
 	search += "</div>";
 	search += "</form>";
 	document.getElementById("search").innerHTML = search;
