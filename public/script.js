@@ -5,8 +5,8 @@ function start(){
 	var hash = window.location.hash;
 	var xmlhttp = new XMLHttpRequest();
 
-	xmlhttp.open("GET", "drinks.json", true);
-	//xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
+	//xmlhttp.open("GET", "drinks.json", true);
+	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 
 	xmlhttp.onreadystatechange = function() {
@@ -21,7 +21,6 @@ function start(){
 function all(myObj){
 	document.getElementById("title").innerHTML = "Make Drinks";
 	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman? Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
-
 	var card = "<div class='card-columns'>";
 	for(var i = 0; i < myObj.length; i++) {
 		//console.log(myObj[i].name);
@@ -29,7 +28,7 @@ function all(myObj){
 		card += "<h3>"+myObj[i].name+"</h3>";
 		card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow' alt='"+myObj[i].name+"'>";
 		card += "<div class='card-body p-0 pt-1'>";
-		card += myObj[i].text;
+		card += "<p class='lead'>"+myObj[i].text+"</p>";
 		card += "</div>";
 		card += "</div>";
 	}
@@ -42,10 +41,10 @@ function detail(hash, myObj){
 	for(var i = 0; i < myObj.length; i++) {
 		if(hash == "#"+myObj[i].id){
 			for(var ii = 0; ii < myObj[i].ingredients.length; ii++) {
-				ingredient += " - "+myObj[i].ingredients[ii].ingredient+"<br>";
+				ingredient += "<p class='lead'> - "+myObj[i].ingredients[ii].ingredient+"</p>";
 			}
 			for(var ii = 0; ii < myObj[i].make.length; ii++) {
-				make += "<p><b>"+count+".</b> "+myObj[i].make[ii].step+"</p>";
+				make += "<p class='lead'><b>"+count+".</b> "+myObj[i].make[ii].step+"</p>";
 				count = count + 1;
 			}
 			break;
@@ -66,4 +65,14 @@ function detail(hash, myObj){
 	document.getElementById("title").innerHTML = myObj[i].name;
 	document.getElementById("subtitle").innerHTML = myObj[i].text;
 	document.getElementById("detail").innerHTML += detail;
+}
+
+
+function search(){
+	document.getElementById("search").innerHTML = "<form>";
+	document.getElementById("search").innerHTML += "<div class='form-group'>";
+	document.getElementById("search").innerHTML += "<input type='search' class='form-control' id='' aria-describedby=''>
+	document.getElementById("search").innerHTML += "<small id='' class='form-text text-muted'></small>";
+	document.getElementById("search").innerHTML += "</div>";
+
 }
