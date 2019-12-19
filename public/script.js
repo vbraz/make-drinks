@@ -5,8 +5,8 @@ function start(){
 	var hash = window.location.hash;
 	var xmlhttp = new XMLHttpRequest();
 
-	//xmlhttp.open("GET", "drinks.json", true);
-	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
+	xmlhttp.open("GET", "drinks.json", true);
+	//xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 
 	xmlhttp.onreadystatechange = function() {

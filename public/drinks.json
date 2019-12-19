@@ -125,5 +125,30 @@
         "step": "Num copo baixo, coloque 3 gomos de laranja e preencha com cubos de gelo. Junte o campari e complete com club soda. Misture com uma colher e sirva a seguir."
       }
     ]
+  },
+  {
+    "id": "apple-cart",
+    "name": "Apple Cart",
+    "text": "Chiquérrimo e refrescante, este drinque leva licor de laranja, destilado de maçã e suco de limão. Perfeito para abrir o apetite.",
+    "pic": "https://cdn.panelinha.com.br/receita/1376881200000-Apple-cart.jpg",
+    "ingredients": [
+      {
+        "ingredient": "1 dose / 50 ml de Calvados (destilado de maçã)"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de Cointreau (licor de laranja)"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de caldo de limão"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Num copo baixo com gelo junte o Calvados, o Cointreau e o caldo de limão. Misture delicadamente com uma colher bailarina e sirva a seguir."
+      }
+    ]
   }
 ]
