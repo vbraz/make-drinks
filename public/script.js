@@ -74,5 +74,4 @@ function search(){
 	document.getElementById("search").innerHTML += "<input type='search' class='form-control' id='' aria-describedby=''>";
 	document.getElementById("search").innerHTML += "<small id='' class='form-text text-muted'></small>";
 	document.getElementById("search").innerHTML += "</div>";
-
 }

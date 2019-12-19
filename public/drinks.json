@@ -150,5 +150,42 @@
         "step": "Num copo baixo com gelo junte o Calvados, o Cointreau e o caldo de limão. Misture delicadamente com uma colher bailarina e sirva a seguir."
       }
     ]
+  },
+  {
+    "id": "limoncello-caseiro",
+    "name": "Limoncello Caseiro",
+    "text": "Este licor italiano de limão leva uns dias para ficar pronto. Mas o trabalho é todo do tempo. Mantenha no congelador e sirva, bem gelado, como digestivo, ou use para fazer drinques (é uma carta na manga para visitas inesperadas!).",
+    "pic": "https://cdn.panelinha.com.br/receita/1470020400000-Limoncello-caseiro.jpg",
+    "ingredients": [
+      {
+        "ingredient": "5 limões-sicilianos"
+      },
+      {
+        "ingredient": "500 ml de vodca"
+      },
+      {
+        "ingredient": "1 ½ xícara (chá) de açúcar"
+      },
+      {
+        "ingredient": "1 ½ xícara (chá) de água"
+      }
+    ],
+    "make": [
+      {
+        "step": "Com uma escovinha para legumes, lave bem as cascas dos limões sob água corrente e seque bem cada um - é importante que as cascas estejam secas para fazer o licor. Com uma faca de legumes bem afiada (ou descascador) descasque os limões com bastante cuidado para não tirar a parte branca - ela amarga a receita."
+      },
+      {
+        "step": "Coloque as cascas dos limões num pote com fechamento hermético, cubra com a vodca e tampe - o pote precisa ter fechamento hermético para o álcool não evaporar. Deixe descansar por pelo menos 5 dias para o limão liberar todo o aroma e sabor na vodca (se estiver com mais tempo, deixe por 1 semana)."
+      },
+      {
+        "step": "Após os 5 dias de descanso, prepare a calda: numa panela pequena misture a água com o açúcar. Leve ao fogo médio e deixe cozinhar até ferver e todo o açúcar dissolver. Transfira para uma jarra e deixe esfriar."
+      },
+      {
+        "step": "Junte a calda de açúcar ao pote com vodca e cascas de limão, misture, tampe e deixe descansar por mais 5 dias (se estiver com tempo, deixe descansar por 1 semana; o licor fica ainda mais gostoso)."
+      },
+      {
+        "step": "Coe o limoncello; descarte as cascas e transfira o licor para uma garrafa. Deixe no congelador para servir puro, bem gelado, ou preparar um drinque, como o limoncello spritz."
+      }
+    ]
   }
 ]
