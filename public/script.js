@@ -5,8 +5,8 @@ function start(){
 	var hash = window.location.hash;
 	var xmlhttp = new XMLHttpRequest();
 
-	xmlhttp.open("GET", "drinks.json", true);
-	//xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
+	//xmlhttp.open("GET", "drinks.json", true);
+	xmlhttp.open("GET", "https://raw.githubusercontent.com/vbraz/make-drinks/master/public/drinks.json", true);
 	xmlhttp.send();
 
 	xmlhttp.onreadystatechange = function() {
@@ -71,7 +71,7 @@ function detail(hash, myObj){
 function search(){
 	document.getElementById("search").innerHTML = "<form>";
 	document.getElementById("search").innerHTML += "<div class='form-group'>";
-	document.getElementById("search").innerHTML += "<input type='search' class='form-control' id='' aria-describedby=''>
+	document.getElementById("search").innerHTML += "<input type='search' class='form-control' id='' aria-describedby=''>";
 	document.getElementById("search").innerHTML += "<small id='' class='form-text text-muted'></small>";
 	document.getElementById("search").innerHTML += "</div>";
 
