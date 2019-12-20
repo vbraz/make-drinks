@@ -12,9 +12,6 @@ function start(){
 	xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			var myObj = JSON.parse(this.responseText);
-				if(hash){ detail(hash, myObj);
-				} else  { all(myObj); }
-			}
 			if(hash){ detail(hash, myObj);
 			} else  { all(myObj); }
 		}
