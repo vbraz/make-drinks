@@ -1,8 +1,8 @@
 
 function start(){
 	document.getElementById("detail").innerHTML = "";
-	document.getElementById("all").innerHTML = "";
 	document.getElementById("search").innerHTML = "";
+	document.getElementById("all").innerHTML = "";
 	var hash = window.location.hash;
 	var xmlhttp = new XMLHttpRequest();
 
@@ -23,10 +23,10 @@ function all(myObj){
 	document.getElementById("title").innerHTML = "Make Drinks";
 	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman? Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
 	search();
-	var card = "<div class='card-columns'>";
+	var card = "<div class='card-columns' id='card-columns'>";
 	for(var i = 0; i < myObj.length; i++) {
 		//console.log(myObj[i].name);
-		card += "<div class='card col-3-md mb-4' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
+		card += "<div class='card col-3-md mb-4' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 		card += "<h3>"+myObj[i].name+"</h3>";
 		card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
 		card += "<div class='card-body p-0 pt-1'>";
@@ -73,8 +73,28 @@ function detail(hash, myObj){
 function search(){
 	var search = "<form>";
 	search += "<div class='form-group mt-4 mb-4'>";
-	search += "<input type='search' class='form-control rounded-pill' id='' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
+	search += "<input type='search' class='form-control rounded-pill' id='search' onkeyup='working_search()' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
 	search += "</div>";
 	search += "</form>";
 	document.getElementById("search").innerHTML = search;
+}
+
+function working_search(){
+	console.log("none");
+
+	var input, filter, ul, li, a, i, txtValue;
+	input = document.getElementById('search');
+	filter = input.value.toUpperCase();
+	ul = document.getElementById("card-columns");
+	li = ul.getElementById("card");
+	
+	for (i = 0; i < li.length; i++) {
+		a = li[i].getElementsByTagName("a")[0];
+		txtValue = a.textContent || a.innerText;
+		if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			li[i].style.display = "";
+		} else {
+			li[i].style.display = "none";
+		}
+	}
 }
