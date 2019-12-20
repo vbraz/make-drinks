@@ -15,6 +15,9 @@ function start(){
 				if(hash){ detail(hash, myObj);
 				} else  { all(myObj); }
 			}
+			if(hash){ detail(hash, myObj);
+			} else  { all(myObj); }
+		}
 	};
 }
 
