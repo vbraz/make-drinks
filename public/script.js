@@ -35,6 +35,10 @@ function all(myObj){
 		card += "</div>";
 	}
 	card += "</div>";
+	card += "<div class='row list-single' id='notAvailable' style='display: none;'>";
+	card += "<h5>Sorry, the book has not been added yet</h5>";
+	card += "</div>";
+
 	document.getElementById("all").innerHTML += card;
 }
 
@@ -71,9 +75,9 @@ function detail(hash, myObj){
 
 
 function search(){
-	var search = "<form>";
+	var search = "<form id='search'>";
 	search += "<div class='form-group mt-4 mb-4'>";
-	search += "<input type='search' class='form-control rounded-pill' id='search' onkeyup='working_search()' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
+	search += "<input type='search' class='form-control rounded-pill' onkeyup='working_search()' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
 	search += "</div>";
 	search += "</form>";
 	document.getElementById("search").innerHTML = search;
@@ -82,19 +86,22 @@ function search(){
 function working_search(){
 	console.log("none");
 
-	var input, filter, ul, li, a, i, txtValue;
-	input = document.getElementById('search');
-	filter = input.value.toUpperCase();
-	ul = document.getElementById("card-columns");
-	li = ul.getElementById("card");
-	
-	for (i = 0; i < li.length; i++) {
-		a = li[i].getElementsByTagName("a")[0];
-		txtValue = a.textContent || a.innerText;
-		if (txtValue.toUpperCase().indexOf(filter) > -1) {
-			li[i].style.display = "";
+	const searchBar = document.forms['search'].querySelector('input');
+	searchBar.addEventListener('keyup', function(e) {
+	  const term = e.target.value.toLocaleLowerCase();
+	  const cardcolumns = document.getElementsByTagName('h3');
+	  var notAvailable = document.getElementById('notAvailable');
+	  $("#search").toggle($('input').val().length == 0);
+	  var hasResults = false;
+	  Array.from(cardcolumns).forEach(function(card) {
+		const title = book.textContent;
+		if (title.toLowerCase().indexOf(term) != -1) {
+			card.parentElement.parentElement.style.display = 'block';
+		  hasResults = true;
 		} else {
-			li[i].style.display = "none";
+			card.parentElement.parentElement.style.display = 'none';
 		}
-	}
+	  });
+	  notAvailable.style.display = hasResults ? 'none' : 'block';
+	});
 }
