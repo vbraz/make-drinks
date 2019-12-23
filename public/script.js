@@ -89,7 +89,7 @@ function working_search(){
 	const searchBar = document.forms['search'].querySelector('input');
 	searchBar.addEventListener('keyup', function(e) {
 	  const term = e.target.value.toLocaleLowerCase();
-	  const cardcolumns = document.getElementsByTagName('h3');
+	  const cardcolumns = document.getElementById('card');
 	  var notAvailable = document.getElementById('notAvailable');
 	  $("#search").toggle($('input').val().length == 0);
 	  var hasResults = false;
