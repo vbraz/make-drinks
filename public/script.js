@@ -60,6 +60,7 @@ function detail(hash, myObj){
 	detail += "<hr class='mt-3 mb-3'>";
 	detail += "<h3>Modo de preparo</h3>"
 	detail += make;
+	detail += "<small>autor: "+myObj[i].copyright+"</small>";
 	detail += "<center>";
 	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 mr-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";
 	detail += "<a href='https://wa.me/?text="+myObj[i].text+" \n https://make-drinks.web.app/"+hash+"' data-action='share/whatsapp/share' role='button' class='btn  btn-success mt-3 mb-3 rounded-pill'>whatsapp</a>";

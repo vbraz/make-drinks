@@ -4,6 +4,7 @@
     "name": "Caipirinha",
     "text": "Nacionalíssima, a caipirinha é ótima como aperitivo ou para acompanhar a tradicional feijoada.",
     "pic": "https://cdn.panelinha.com.br/receita/1365044400000-Caipirinha-classica-de-limao.jpg",
+    "copyright": "panelinha.com.br",
     "ingredients": [
       {
         "ingredient": "1 limão"
@@ -32,6 +33,7 @@
     "name": "Dry Martini",
     "text": "A versão clássica do drinque favorito de James Bond",
     "pic": "https://cdn.panelinha.com.br/receita/1377054000000-Dry-martini.jpg",
+    "copyright": "panelinha.com.br",
     "ingredients": [
       {
         "ingredient": "3 doses de gim (150 ml)"
@@ -66,6 +68,7 @@
     "name": "Mojito",
     "text": "O mojito, drinque a base de rum quase primo da caipirinha, é delicioso e super refrescante graças as folhas frescas de hortelã. Irresistível!",
     "pic": "https://cdn.panelinha.com.br/receita/1363748400000-Mojito.jpg",
+    "copyright": "panelinha.com.br",
     "ingredients": [
       {
         "ingredient": "1 limão"
@@ -106,6 +109,7 @@
     "name": "Campari Soda",
     "text": "Com poucos ingredientes e apenas um passo, você prepara um drinque charmoso, com visual e sabor incríveis. Perfeito para embalar o fim de uma tarde de verão, uma festinha ou o happy hour.",
     "pic": "https://cdn.panelinha.com.br/receita/1530653619673-campari-soda.jpg",
+    "copyright": "panelinha.com.br",
     "ingredients": [
       {
         "ingredient": "1 dose de Campari (50 ml, cerca de ¼ de xícara)"
@@ -131,6 +135,7 @@
     "name": "Apple Cart",
     "text": "Chiquérrimo e refrescante, este drinque leva licor de laranja, destilado de maçã e suco de limão. Perfeito para abrir o apetite.",
     "pic": "https://cdn.panelinha.com.br/receita/1376881200000-Apple-cart.jpg",
+    "copyright": "panelinha.com.br",
     "ingredients": [
       {
         "ingredient": "1 dose / 50 ml de Calvados (destilado de maçã)"
@@ -156,6 +161,7 @@
     "name": "Limoncello Caseiro",
     "text": "Este licor italiano de limão leva uns dias para ficar pronto. Mas o trabalho é todo do tempo. Mantenha no congelador e sirva, bem gelado, como digestivo, ou use para fazer drinques (é uma carta na manga para visitas inesperadas!).",
     "pic": "https://cdn.panelinha.com.br/receita/1470020400000-Limoncello-caseiro.jpg",
+    "copyright": "panelinha.com.br",
     "ingredients": [
       {
         "ingredient": "5 limões-sicilianos"
