@@ -29,14 +29,12 @@ function all(myObj){
 		card += "<div class='card col-3-md mb-4' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 		card += "<h3>"+myObj[i].name+"</h3>";
 		card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
-		card += "<div class='card-body p-0 pt-1'>";
-		card += "<p class='lead'>"+myObj[i].text+"</p>";
-		card += "</div>";
+		card += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
 		card += "</div>";
 	}
 	card += "</div>";
 	card += "<div class='row list-single' id='notAvailable' style='display: none;'>";
-	card += "<h5>Sorry, the book has not been added yet</h5>";
+	card += "<h5>Desculpe, não encotramos esse drink :(</h5>";
 	card += "</div>";
 
 	document.getElementById("all").innerHTML += card;
@@ -64,7 +62,7 @@ function detail(hash, myObj){
 	detail += "<h3>Modo de preparo</h3>"
 	detail += make;
 	detail += "<center>";
-	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";
+	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 mr-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";
 	detail += "<a href='https://wa.me/?text="+myObj[i].text+" \n https://make-drinks.web.app/"+hash+"' data-action='share/whatsapp/share' role='button' class='btn  btn-success mt-3 mb-3 rounded-pill'>whatsapp</a>";
 	detail += "</center>";
 
@@ -77,31 +75,25 @@ function detail(hash, myObj){
 function search(){
 	var search = "<form id='search'>";
 	search += "<div class='form-group mt-4 mb-4'>";
-	search += "<input type='search' class='form-control rounded-pill' onkeyup='working_search()' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
+	search += "<input type='search' id='insearch' class='form-control rounded-pill' onkeyup='working_search()' autocomplete='off' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
 	search += "</div>";
 	search += "</form>";
 	document.getElementById("search").innerHTML = search;
 }
 
 function working_search(){
-	console.log("none");
+  var filter, ul, li, a, i, txtValue;
+  filter = document.getElementById('insearch').value.substring().toUpperCase();
+  ul = document.getElementById("card-columns");
+  li = ul.getElementsByTagName('div');
 
-	const searchBar = document.forms['search'].querySelector('input');
-	searchBar.addEventListener('keyup', function(e) {
-	  const term = e.target.value.toLocaleLowerCase();
-	  const cardcolumns = document.getElementById('card');
-	  var notAvailable = document.getElementById('notAvailable');
-	  $("#search").toggle($('input').val().length == 0);
-	  var hasResults = false;
-	  Array.from(cardcolumns).forEach(function(card) {
-		const title = book.textContent;
-		if (title.toLowerCase().indexOf(term) != -1) {
-			card.parentElement.parentElement.style.display = 'block';
-		  hasResults = true;
-		} else {
-			card.parentElement.parentElement.style.display = 'none';
-		}
-	  });
-	  notAvailable.style.display = hasResults ? 'none' : 'block';
-	});
+  for (i = 0; i < li.length; i++) {
+    a = li[i];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
 }
