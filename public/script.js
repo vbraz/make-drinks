@@ -82,18 +82,18 @@ function search(){
 }
 
 function working_search(){
-  var filter, ul, li, a, i, txtValue;
+  var filter, cardcolumns, card, a, i, txtValue;
   filter = document.getElementById('insearch').value.substring().toUpperCase();
-  ul = document.getElementById("card-columns");
-  li = ul.getElementsByTagName('div');
+  cardcolumns = document.getElementById("card-columns");
+  card = cardcolumns.getElementsByTagName('div');
 
-  for (i = 0; i < li.length; i++) {
-    a = li[i];
+  for (i = 0; i < card.length; i++) {
+    a = card[i];
     txtValue = a.textContent || a.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+		card[i].style.display = "";
     } else {
-      li[i].style.display = "none";
+		card[i].style.display = "none";
     }
   }
 }
