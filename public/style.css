@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Questrial"),url(static/questrial-regular.ttf) format("truetype"),url(static/questrial-regular.eot?#iefix) format("embedded-opentype")
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
 @media (prefers-color-scheme: dark) {
@@ -16,11 +24,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 h1 {
-    font-weight: 900;
+    font-family: 'Questrial', sans-serif;
     font-size: 3rem;
 }
 h3 {
-    font-weight: 900;
+    font-family: 'Questrial', sans-serif;
 }
 .card, .card img, img{
     border: none;
@@ -30,4 +38,9 @@ h3 {
     border: none;
     box-shadow: none;
     background: #f1f3f4;
+}
+
+.affix {
+    top:50px;
+    position:fixed;
 }

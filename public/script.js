@@ -2,6 +2,7 @@
 function start(){
 	document.getElementById("detail").innerHTML = "";
 	document.getElementById("search").innerHTML = "";
+	document.getElementById("drinkday").innerHTML = "";
 	document.getElementById("all").innerHTML = "";
 	var hash = window.location.hash;
 	var xmlhttp = new XMLHttpRequest();
@@ -22,6 +23,7 @@ function start(){
 function all(myObj){
 	document.getElementById("title").innerHTML = "Make Drinks";
 	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman? Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
+	drinkday(myObj);
 	search();
 	var card = "<div class='card-columns' id='card-columns'>";
 	for(var i = 0; i < myObj.length; i++) {
@@ -32,9 +34,6 @@ function all(myObj){
 		card += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
 		card += "</div>";
 	}
-	card += "</div>";
-	card += "<div class='row list-single' id='notAvailable' style='display: none;'>";
-	card += "<h5>Desculpe, não encotramos esse drink :(</h5>";
 	card += "</div>";
 
 	document.getElementById("all").innerHTML += card;
@@ -71,10 +70,9 @@ function detail(hash, myObj){
 	document.getElementById("detail").innerHTML += detail;
 }
 
-
 function search(){
 	var search = "<form id='search'>";
-	search += "<div class='form-group mt-4 mb-4'>";
+	search += "<div class='form-group mt-4 mb-5 sticky-top' data-spy='affix'>";
 	search += "<input type='search' id='insearch' class='form-control rounded-pill' onkeyup='working_search()' autocomplete='off' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
 	search += "</div>";
 	search += "</form>";
@@ -96,4 +94,30 @@ function working_search(){
 		card[i].style.display = "none";
     }
   }
+}
+
+function drinkday(myObj){
+	var drinkday, rand;
+	i = Math.floor(Math.random() * 6);
+
+	drinkday = "<div class='card mb-5 mt-5 d-md-block d-none' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
+	drinkday += "<div class='row no-gutters'>";
+	drinkday += "<div class='col-sm pr-3'>";
+	drinkday += "<img src='"+myObj[i].pic+"' class='card-img shadow' alt='"+myObj[i].name+"'>";
+	drinkday += "</div>";
+	drinkday += "<div class='col-md-8'>";
+	drinkday += "<h3 class='card-title'><small>Sugestão do barman</small><br>"+myObj[i].name+"</h3>";
+	drinkday += "<p class='card-text lead'>"+myObj[i].text+"</p>";
+	drinkday += "</div>";
+	drinkday += "</div>";
+	drinkday += "</div>";
+
+	drinkday += "<div class='card mb-5 mt-5 d-md-none d-block' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
+	drinkday += "<h3><small>Sugestão do barman</small><br>"+myObj[i].name+"</h3>";
+	drinkday += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+	drinkday += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
+	drinkday += "</div>";
+
+
+	document.getElementById("drinkday").innerHTML = drinkday;
 }
