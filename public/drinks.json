@@ -193,5 +193,534 @@
         "step": "Coe o limoncello; descarte as cascas e transfira o licor para uma garrafa. Deixe no congelador para servir puro, bem gelado, ou preparar um drinque, como o limoncello spritz."
       }
     ]
+  },
+  {
+    "id": "sangria",
+    "name": "Sangria",
+    "text": "Deliciosamente refrescante, a sangria é um clássico espanhol, ideal para os dias mais quentes. Os amigos adoram, e os anfitriões também. Ela rende que é uma beleza!",
+    "pic": "https://cdn.panelinha.com.br/receita/985057200000-Sangria.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 garrafa de vinho tinto (750 ml)"
+      },
+      {
+        "ingredient": "2 latas de água tônica (700ml)"
+      },
+      {
+        "ingredient": "1 xícara (chá) de caldo de laranja (cerca de 3 laranjas)"
+      },
+      {
+        "ingredient": "2 pêssegos"
+      },
+      {
+        "ingredient": "1 maçã"
+      },
+      {
+        "ingredient": "½ abacaxi em cubos"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de açúcar"
+      },
+      {
+        "ingredient": "¼ de xícara (chá) de gim (60 ml) (opcional)"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Descasque e corte o abacaxi em cubos de cerca de 1,5 cm. Lave, seque e mantenha a casca do pêssego e da maçã. Corte o pêssego ao meio, descarte o caroço e corte cada metade em 4 fatias. Com um fatiador de legumes, corte a maçã em fatias finas no sentido da largura (se preferir, corte com a faca)."
+      },
+      {
+        "step": "Numa jarra, coloque as frutas picadas e o açúcar. Regue com o caldo de laranja e o gim. Deixe macerar na geladeira por 30 minutos ou até a hora de servir."
+      },
+      {
+        "step": "Enquanto isso, coloque o vinho e a água tônica na geladeira. Deixe por 30 minutos para gelar."
+      },
+      {
+        "step": "Na hora de servir, junte o vinho e a água tônica às frutas. Acrescente cubos de gelo a gosto."
+      }
+    ]
+  },
+  {
+    "id": "gim-fizz-com-roma",
+    "name": "Gim Fizz com Roma",
+    "text": "Se para você drinque é sinônimo de glamour, esta receita é perfeita para o seu verão. É lindo, é borbulhante, é refrescante!",
+    "pic": "https://cdn.panelinha.com.br/receita/1544553593547-gin%20fizz.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de gim (50 ml)"
+      },
+      {
+        "ingredient": "caldo de 1 limão"
+      },
+      {
+        "ingredient": "1 colher (sopa) de açúcar"
+      },
+      {
+        "ingredient": "1 ½ colher (sopa) de sementes de romã"
+      },
+      {
+        "ingredient": "1 ramo de alecrim"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Antes de preparar o drinque, leve o club soda à geladeira por pelo menos 30 minutos (se preferir, coloque na geladeira na noite anterior)."
+      },
+      {
+        "step": "Numa taça de vinho (ou copo), misture bem o açúcar com o caldo de limão. Junte as sementes de romã e o gim. Preencha o copo com cubos de gelo e complete com club soda. Adicione 1 galho de alecrim e sirva a seguir"
+      }
+    ]
+  },
+  {
+    "id": "whisky-royal",
+    "name": "Whisky Royal",
+    "text": "Graças à maçã, esse drinque tem um toque de frescor. Ótima opção para usar aquela garrafa de uísque esquecida no fundo do armário.",
+    "pic": "https://cdn.panelinha.com.br/receita/1354672800000-Whisky-royal.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 parte de uísque"
+      },
+      {
+        "ingredient": "2 partes de suco de maçã"
+      },
+      {
+        "ingredient": "fatias de maçã"
+      },
+      {
+        "ingredient": "club soda para completar"
+      },
+      {
+        "ingredient": "gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Em um copo alto, misture o uísque com o suco de maçã."
+      },
+      {
+        "step": "Decore com fatias da fruta e complete com bastante gelo e club soda ou água com gás."
+      }
+    ]
+  },
+  {
+    "id": "batida-de-amendoim",
+    "name": "Batida de Amendoim",
+    "text": "Sabe batidinha, feita no liquidificador com leite condensado e cachaça? Acrescentamos amendoim para a brincadeira ficar ainda melhor. Doce, este drinque vai fazer a alegria da festa!",
+    "pic": "https://cdn.panelinha.com.br/receita/1465268400000-Batida-de-amendoim.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "½ xícara (chá) de amendoim torrado sem pele e sem sal"
+      },
+      {
+        "ingredient": "1 lata de leite condensado (395 g)"
+      },
+      {
+        "ingredient": "¾ de xícara (chá) de cachaça"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "No copo do liquidificador bata o amendoim, o leite condensado, a cachaça e cubos de gelo até ficar liso."
+      },
+      {
+        "step": "Sirva a seguir nos copos com cubos de gelo."
+      }
+    ],
+    "obs": "Se preferir preparar a batida com antecedência, bata sem os cubos de gelo, transfira para uma garrafa esterilizada e mantenha na geladeira por até 3 dias. Chacoalhe bem antes de servir."
+  },
+  {
+    "id": "rusty-nail",
+    "name": "Rusty Nail",
+    "text": "A base de uísque e Drambuie, o Rusty Nail é um drinque com personalidade. A casquinha de limão siciliano dá o toque perfumado.",
+    "pic": "https://cdn.panelinha.com.br/receita/1376881200000-Rusty-nail.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "2 doses de uísque"
+      },
+      {
+        "ingredient": "1 dose de Drambuie (licor de uísque)"
+      },
+      {
+        "ingredient": "cubos gelo a gosto"
+      },
+      {
+        "ingredient": "1 tira de casca de limão siciliano para perfumar"
+      }
+    ],
+    "make": [
+      {
+        "step": "Preencha um copo baixo com cubos de gelo. Junte o uísque, o Drambuie e a casca de limão siciliano. Misture e sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "vinho-quente",
+    "name": "Vinho Quente",
+    "text": "Nada melhor para espantar o frio do que uma boa caneca de vinho quente!",
+    "pic": "https://cdn.panelinha.com.br/receita/1526935442626-receita-vinho-quente.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 litro de vinho tinto suave"
+      },
+      {
+        "ingredient": "casca de 1 laranja"
+      },
+      {
+        "ingredient": "1 xícara (chá) de caldo de laranja"
+      },
+      {
+        "ingredient": "3 colheres (sopa) de caldo de limão"
+      },
+      {
+        "ingredient": "½ xícara (chá) de açúcar"
+      },
+      {
+        "ingredient": "2 maçãs"
+      },
+      {
+        "ingredient": "6 cravos-da-índia"
+      },
+      {
+        "ingredient": "3 ramas de canela em pau"
+      }
+    ],
+    "make": [
+      {
+        "step": "Coloque todos os ingredientes numa panela média. Misture muito bem."
+      },
+      {
+        "step": "Descasque as maçãs, retire as sementes e os cabinhos. Corte-as em cubinhos."
+      },
+      {
+        "step": "Leve a panela com o vinho ao fogo alto e acrescente os cubinhos de maçã."
+      },
+      {
+        "step": "Depois que ferver, abaixe o fogo e deixe cozinhar por mais 10 minutos."
+      },
+      {
+        "step": "Retire os cravos e as canelas com uma colher e sirva bem quente."
+      }
+    ]
+  },
+  {
+    "id": "porto-e-tonica",
+    "name": "Porto e Tônica",
+    "text": "O vinho fortificado, clássico digestivo, divide espaço com água tônica e vira um aperitivo que abre o apetite para o jantar. E é cheio de frescor!",
+    "pic": "https://cdn.panelinha.com.br/receita/1354672800000-Porto-e-tonica.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "½ xícara (chá) de vinho do Porto (120 ml)"
+      },
+      {
+        "ingredient": "1 lata de água tônica gelada"
+      },
+      {
+        "ingredient": "1 casquinha de limão"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Separe 2 copos e coloque em cada um ¼ de xícara (chá) do vinho do Porto."
+      },
+      {
+        "step": "Com um descascador de legumes (ou faca) faça duas tiras da casca do limão com cuidado para não extrair a parte branca que pode amargar o drinque. Coloque 1 tira em cada copo."
+      },
+      {
+        "step": "Complete os copos com gelo e preencha com a água tônica gelada. Sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "gim-tonica",
+    "name": "Gim Tônica",
+    "text": "Refrescante e superfácil de fazer, o gim tônica é perfeito para o happy hour – ainda mais para quem é do time dos coqueteis amargos.",
+    "pic": "https://cdn.panelinha.com.br/receita/1393383600000-Gim-tonica.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "¼ de xícara (chá) de gim"
+      },
+      {
+        "ingredient": "⅔ de xícara (chá) de água tônica"
+      },
+      {
+        "ingredient": "2 rodelas de limão"
+      },
+      {
+        "ingredient": "gelo britado a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Num copo baixo, coloque o gim, as rodelas de limão e complete com o gelo britado. Acrescente a tônica e sirva imediatamente."
+      }
+    ]
+  },
+  {
+    "id": "sharlotka",
+    "name": "Sharlotka",
+    "text": "Diretamente da Polônia, a Sharlotka leva suco de maçã, vodca e surpreende no sabor.",
+    "pic": "https://cdn.panelinha.com.br/receita/1378436400000-Sharlotka.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 ½ dose de vodca"
+      },
+      {
+        "ingredient": "suco de maçã para completar"
+      },
+      {
+        "ingredient": "cubos de gelo"
+      }
+    ],
+    "make": [
+      {
+        "step": "Num copo longo com gelo, junte a vodca e complete com o suco de maçã. Misture com uma colher bailarina e sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "drinque-de-mate-limao-e-cachaca",
+    "name": "Drinque de Mate Limão e Cachaça",
+    "text": "A gente pegou o clima de praia brasileiro e colocou numa flute. A taça de espumante é perfeita para este drinque, que leva cachaça, mas é borbulhante! Perfeito para brindar.",
+    "pic": "https://cdn.panelinha.com.br/receita/1481508000000-Drinque-de-mate-limao-e-cachaca.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "800 ml de água filtrada"
+      },
+      {
+        "ingredient": "4 saquinhos de chá mate"
+      },
+      {
+        "ingredient": "caldo de ½ limão"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de açúcar"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      },
+      {
+        "ingredient": "mate batido com limão gelado"
+      },
+      {
+        "ingredient": "250 ml de cachaça"
+      },
+      {
+        "ingredient": "2 latas de club soda (ou água tônica) geladas"
+      }
+    ],
+    "make": [
+      {
+        "step": "Coloque a água numa chaleira e leve ao fogo alto para ferver. Quando ferver, desligue o fogo, mergulhe os saquinhos de chá, tampe e deixe em infusão. Espere amornar e deixe na geladeira até ficar bem gelado."
+      },
+      {
+        "step": "Na hora de fazer os drinques, descarte os sachês e transfira o chá para o liquidificador. Junte o caldo do limão, o açúcar e cubos de gelo a gosto. Bata bem para triturar o gelo e transfira para uma jarra."
+      },
+      {
+        "step": "Numa taça de espumante coloque ½ dose de cachaça (cerca de 2 colheres (sopa)), preencha até a metade com o club soda e complete com o mate. Sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "drinque-de-mate-limao-e-cachaca",
+    "name": "Drinque de Mate Limão e Cachaça",
+    "text": "A gente pegou o clima de praia brasileiro e colocou numa flute. A taça de espumante é perfeita para este drinque, que leva cachaça, mas é borbulhante! Perfeito para brindar.",
+    "pic": "https://cdn.panelinha.com.br/receita/1481508000000-Drinque-de-mate-limao-e-cachaca.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de rum branco (cerca de 50 ml)"
+      },
+      {
+        "ingredient": "raspas e caldo de ½ limão"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de merengue suíço"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Num copo baixo, junte o rum e o caldo de limão. Preencha com cubos de gelo, finalize com duas colheradas de merengue suíço e raspas de limão. Sirva imediatamente."
+      }
+    ]
+  },
+  {
+    "id": "sgroppino",
+    "name": "Sgroppino",
+    "text": "Este drinque italiano, da região do Vêneto, é servido tradicionalmente como digestivo, após a refeição. Pode ser feito com sorvete de limão ou, para uma versão mais leve, com sorbet (feito com água).",
+    "pic": "https://cdn.panelinha.com.br/receita/1555612880744-CP-2019_24_01_6476.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "⅓ de xícara (chá) de sorvete de limão"
+      },
+      {
+        "ingredient": "⅓ de xícara (chá) de espumante"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de vodca"
+      }
+    ],
+    "make": [
+      {
+        "step": "Numa tigela, junte o sorvete de limão, o espumante e a vodca."
+      },
+      {
+        "step": "Misture com o batedor de arame apenas para desmanchar o sorvete."
+      },
+      {
+        "step": "Transfira para uma taça de champanhe e sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "text": "O Negroni é um drinque italiano bem classudo, ótimo para ser servido como aperitivo. E o melhor de tudo é que é super fácil de preparar e delicioso. Tintin!",
+    "pic": "https://cdn.panelinha.com.br/receita/1362020400000-Negroni.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de gim"
+      },
+      {
+        "ingredient": "1 dose de Campari"
+      },
+      {
+        "ingredient": "1 dose de vermute tinto"
+      },
+      {
+        "ingredient": "1 rodela de laranja"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Num copo americano baixo, coloque a rodela de laranja e adicione bastante gelo. Junte o gim, o Campari e o vermute tinto."
+      },
+      {
+        "step": "Com uma colher bailarina, misture agitando o líquido de cima para baixo. Sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "gim-fizz-com-hortela",
+    "name": "Gim Fizz com Hortelã",
+    "text": "Boa pedida para dias de happy hour em casa: deixe os ingredientes no bar e cada convidado faz o seu drinque! Além da hortelã, você pode usar outras ervas para dar um toque aromático.",
+    "pic": "https://cdn.panelinha.com.br/receita/1535985391457-ginfizz.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de gim (50 ml, cerca de ¼ de xícara de chá)"
+      },
+      {
+        "ingredient": "2 colheres (sopa) de caldo de limão"
+      },
+      {
+        "ingredient": "1 colher (sopa) de açúcar"
+      },
+      {
+        "ingredient": "½ xícara (chá) de club soda"
+      },
+      {
+        "ingredient": "cubos de gelo a gosto"
+      },
+      {
+        "ingredient": "folhas de hortelã a gosto"
+      },
+      {
+        "ingredient": "gomos de limão a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "De preferência, leve o club soda (ou água com gás) à geladeira por no mínimo 30 minutos (se quiser, coloque para gelar na noite anterior)."
+      },
+      {
+        "step": "Numa taça de vinho, misture o gim com o caldo de limão e o açúcar."
+      },
+      {
+        "step": "Preencha o copo com cubos de gelo, complete com o club soda, misture folhas de hortelã a gosto, 1 gomo de limão e sirva a seguir."
+      }
+    ],
+    "obs": "Este drinque é superversátil. Além de folhas de hortelã, você pode variar  colocando tiras de casca de laranja, folhas de manjericão ou raminhos de alecrim."
+  },
+  {
+    "id": "pina-colada",
+    "name": "Piña Colada",
+    "text": "Tipicamente caribenha, a Piña Colada também faz sucesso em terras brasileiras. O toque retrô fica por conta do enfeite de cereja e abacaxi.",
+    "pic": "https://cdn.panelinha.com.br/receita/1379386800000-Pina-colada.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de rum (50 ml)"
+      },
+      {
+        "ingredient": "1 dose de leite de coco (50 ml)"
+      },
+      {
+        "ingredient": "2 doses de suco de abacaxi (100 ml)"
+      },
+      {
+        "ingredient": "1 colher (sopa) de açúcar"
+      },
+      {
+        "ingredient": "cubos de gelo"
+      }
+    ],
+    "make": [
+      {
+        "step": "Numa coqueteleira, junte o rum, o leite de coco, o suco de abacaxi, o açúcar e bata até ficar cremoso."
+      },
+      {
+        "step": "Transfira para uma taça com gelo e sirva a seguir."
+      }
+    ]
+  },
+  {
+    "id": "bellini",
+    "name": "Bellini",
+    "text": "Esta bebida chique e deliciosa foi inventada num dos bares mais tradicionais da Itália, o Harry's Bar de Veneza. Seu nome foi dado em homenagem ao pintor renascentista Giovanni Bellini.",
+    "pic": "https://cdn.panelinha.com.br/receita/1166666400000-Bellini.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 parte de suco de pêssego"
+      },
+      {
+        "ingredient": "3 partes de espumante"
+      }
+    ],
+    "make": [
+      {
+        "step": "Coloque o suco de pêssego na taça de champanhe e complete com prosecco."
+      }
+    ]
   }
 ]

@@ -60,6 +60,7 @@ function detail(hash, myObj){
 	detail += "<hr class='mt-3 mb-3'>";
 	detail += "<h3>Modo de preparo</h3>"
 	detail += make;
+	if(myObj[i].obs) detail += "OBS: "+myObj[i].obs;
 	detail += "<small>autor: "+myObj[i].copyright+"</small>";
 	detail += "<center>";
 	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 mr-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";

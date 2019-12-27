@@ -11,18 +11,17 @@
 @media (prefers-color-scheme: dark) {
     body, .card { background: #333; color:#f1f1f1; }
     .btn-wb { color: #212529; background-color: #f8f9fa; border-color: #f8f9fa; }
-    hr {border-top: 1px solid #f1f1f1; }
   }
   @media (prefers-color-scheme: light) {
     body, .card { background: #fff; color:#333; }
     .btn-wb { color: #fff; background-color: #343a40; border-color: #343a40; }
-    hr {border-top: 1px solid #333333; }
   }
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
+hr {border-top: 1px solid #ccc; }
 h1 {
     font-family: 'Questrial', sans-serif;
     font-size: 3rem;
