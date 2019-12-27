@@ -58,6 +58,7 @@ function detail(hash, myObj){
 	}
 	hash = hash.replace("#","%23");
 	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
+	detail += "<img src='static/"+myObj[i].cup+".64.png' class='mb-3'>";
 	detail += "<h3>Ingredientes</h3>"
 	detail += ingredient;
 	detail += "<hr class='mt-3 mb-3'>";

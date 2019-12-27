@@ -4,6 +4,7 @@
     "name": "Caipirinha",
     "text": "Nacionalíssima, a caipirinha é ótima como aperitivo ou para acompanhar a tradicional feijoada.",
     "pic": "https://cdn.panelinha.com.br/receita/1365044400000-Caipirinha-classica-de-limao.jpg",
+    "cup": "4",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -33,6 +34,7 @@
     "name": "Dry Martini",
     "text": "A versão clássica do drinque favorito de James Bond",
     "pic": "https://cdn.panelinha.com.br/receita/1377054000000-Dry-martini.jpg",
+    "cup": "2",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -68,6 +70,7 @@
     "name": "Mojito",
     "text": "O mojito, drinque a base de rum quase primo da caipirinha, é delicioso e super refrescante graças as folhas frescas de hortelã. Irresistível!",
     "pic": "https://cdn.panelinha.com.br/receita/1363748400000-Mojito.jpg",
+    "cup": "3",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -109,6 +112,7 @@
     "name": "Campari Soda",
     "text": "Com poucos ingredientes e apenas um passo, você prepara um drinque charmoso, com visual e sabor incríveis. Perfeito para embalar o fim de uma tarde de verão, uma festinha ou o happy hour.",
     "pic": "https://cdn.panelinha.com.br/receita/1530653619673-campari-soda.jpg",
+    "cup": "4",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -135,6 +139,7 @@
     "name": "Apple Cart",
     "text": "Chiquérrimo e refrescante, este drinque leva licor de laranja, destilado de maçã e suco de limão. Perfeito para abrir o apetite.",
     "pic": "https://cdn.panelinha.com.br/receita/1376881200000-Apple-cart.jpg",
+    "cup": "4",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -161,6 +166,7 @@
     "name": "Limoncello Caseiro",
     "text": "Este licor italiano de limão leva uns dias para ficar pronto. Mas o trabalho é todo do tempo. Mantenha no congelador e sirva, bem gelado, como digestivo, ou use para fazer drinques (é uma carta na manga para visitas inesperadas!).",
     "pic": "https://cdn.panelinha.com.br/receita/1470020400000-Limoncello-caseiro.jpg",
+    "cup": "2",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -199,6 +205,7 @@
     "name": "Sangria",
     "text": "Deliciosamente refrescante, a sangria é um clássico espanhol, ideal para os dias mais quentes. Os amigos adoram, e os anfitriões também. Ela rende que é uma beleza!",
     "pic": "https://cdn.panelinha.com.br/receita/985057200000-Sangria.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -249,6 +256,7 @@
     "name": "Gim Fizz com Roma",
     "text": "Se para você drinque é sinônimo de glamour, esta receita é perfeita para o seu verão. É lindo, é borbulhante, é refrescante!",
     "pic": "https://cdn.panelinha.com.br/receita/1544553593547-gin%20fizz.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -284,6 +292,7 @@
     "name": "Whisky Royal",
     "text": "Graças à maçã, esse drinque tem um toque de frescor. Ótima opção para usar aquela garrafa de uísque esquecida no fundo do armário.",
     "pic": "https://cdn.panelinha.com.br/receita/1354672800000-Whisky-royal.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -316,6 +325,7 @@
     "name": "Batida de Amendoim",
     "text": "Sabe batidinha, feita no liquidificador com leite condensado e cachaça? Acrescentamos amendoim para a brincadeira ficar ainda melhor. Doce, este drinque vai fazer a alegria da festa!",
     "pic": "https://cdn.panelinha.com.br/receita/1465268400000-Batida-de-amendoim.jpg",
+    "cup": "4",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -346,6 +356,7 @@
     "name": "Rusty Nail",
     "text": "A base de uísque e Drambuie, o Rusty Nail é um drinque com personalidade. A casquinha de limão siciliano dá o toque perfumado.",
     "pic": "https://cdn.panelinha.com.br/receita/1376881200000-Rusty-nail.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -372,6 +383,7 @@
     "name": "Vinho Quente",
     "text": "Nada melhor para espantar o frio do que uma boa caneca de vinho quente!",
     "pic": "https://cdn.panelinha.com.br/receita/1526935442626-receita-vinho-quente.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -422,6 +434,7 @@
     "name": "Porto e Tônica",
     "text": "O vinho fortificado, clássico digestivo, divide espaço com água tônica e vira um aperitivo que abre o apetite para o jantar. E é cheio de frescor!",
     "pic": "https://cdn.panelinha.com.br/receita/1354672800000-Porto-e-tonica.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -454,6 +467,7 @@
     "name": "Gim Tônica",
     "text": "Refrescante e superfácil de fazer, o gim tônica é perfeito para o happy hour – ainda mais para quem é do time dos coqueteis amargos.",
     "pic": "https://cdn.panelinha.com.br/receita/1393383600000-Gim-tonica.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -480,6 +494,7 @@
     "name": "Sharlotka",
     "text": "Diretamente da Polônia, a Sharlotka leva suco de maçã, vodca e surpreende no sabor.",
     "pic": "https://cdn.panelinha.com.br/receita/1378436400000-Sharlotka.jpg",
+    "cup": "3",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -503,6 +518,7 @@
     "name": "Drinque de Mate Limão e Cachaça",
     "text": "A gente pegou o clima de praia brasileiro e colocou numa flute. A taça de espumante é perfeita para este drinque, que leva cachaça, mas é borbulhante! Perfeito para brindar.",
     "pic": "https://cdn.panelinha.com.br/receita/1481508000000-Drinque-de-mate-limao-e-cachaca.jpg",
+    "cup": "0",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -547,6 +563,7 @@
     "name": "Drinque de Mate Limão e Cachaça",
     "text": "A gente pegou o clima de praia brasileiro e colocou numa flute. A taça de espumante é perfeita para este drinque, que leva cachaça, mas é borbulhante! Perfeito para brindar.",
     "pic": "https://cdn.panelinha.com.br/receita/1481508000000-Drinque-de-mate-limao-e-cachaca.jpg",
+    "cup": "0",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -573,6 +590,7 @@
     "name": "Sgroppino",
     "text": "Este drinque italiano, da região do Vêneto, é servido tradicionalmente como digestivo, após a refeição. Pode ser feito com sorvete de limão ou, para uma versão mais leve, com sorbet (feito com água).",
     "pic": "https://cdn.panelinha.com.br/receita/1555612880744-CP-2019_24_01_6476.jpg",
+    "cup": "3",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -602,6 +620,7 @@
     "name": "Negroni",
     "text": "O Negroni é um drinque italiano bem classudo, ótimo para ser servido como aperitivo. E o melhor de tudo é que é super fácil de preparar e delicioso. Tintin!",
     "pic": "https://cdn.panelinha.com.br/receita/1362020400000-Negroni.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -634,6 +653,7 @@
     "name": "Gim Fizz com Hortelã",
     "text": "Boa pedida para dias de happy hour em casa: deixe os ingredientes no bar e cada convidado faz o seu drinque! Além da hortelã, você pode usar outras ervas para dar um toque aromático.",
     "pic": "https://cdn.panelinha.com.br/receita/1535985391457-ginfizz.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -676,6 +696,7 @@
     "name": "Piña Colada",
     "text": "Tipicamente caribenha, a Piña Colada também faz sucesso em terras brasileiras. O toque retrô fica por conta do enfeite de cereja e abacaxi.",
     "pic": "https://cdn.panelinha.com.br/receita/1379386800000-Pina-colada.jpg",
+    "cup": "3",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -708,6 +729,7 @@
     "name": "Bellini",
     "text": "Esta bebida chique e deliciosa foi inventada num dos bares mais tradicionais da Itália, o Harry's Bar de Veneza. Seu nome foi dado em homenagem ao pintor renascentista Giovanni Bellini.",
     "pic": "https://cdn.panelinha.com.br/receita/1166666400000-Bellini.jpg",
+    "cup": "0",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
@@ -728,6 +750,7 @@
     "name": "Americano",
     "text": "Criado na Itália, é uma espécie de irmão mais velho do Negroni, um pouco mais leve por levar água com gás na composição. Vale o brinde!",
     "pic": "https://cdn.panelinha.com.br/receita/1376622000000-Americano.jpg",
+    "cup": "1",
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
