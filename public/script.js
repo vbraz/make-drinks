@@ -23,8 +23,8 @@ function start(){
 }
 
 function all(myObj){
-	var i = Math.floor(Math.random() * 5);
-	document.getElementById("title").innerHTML = "Make Drinks <img src='static/"+i+".512.png' class='icon-title'>";
+	var i = Math.floor(Math.random() * 2);
+	document.getElementById("title").innerHTML = "Make Drinks <img src='static/"+i+".svg' class='icon-title'>";
 	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman?<br>Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
 	drinkday(myObj);
 	search();
@@ -58,7 +58,7 @@ function detail(hash, myObj){
 	}
 	hash = hash.replace("#","%23");
 	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
-	detail += "<img src='static/"+myObj[i].cup+".64.png' class='mb-3'>";
+	//detail += "<img src='static/"+myObj[i].cup+".64.png' class='mb-3'>";
 	detail += "<h3>Ingredientes</h3>"
 	detail += ingredient;
 	detail += "<hr class='mt-3 mb-3'>";
@@ -112,14 +112,14 @@ function drinkday(myObj){
 	drinkday += "<img src='"+myObj[i].pic+"' class='card-img shadow' alt='"+myObj[i].name+"'>";
 	drinkday += "</div>";
 	drinkday += "<div class='col-md-8'>";
-	drinkday += "<h3><small>Sugestão do barman</small><br><img src='static/star.256.png' class='icon-sugesta'> "+myObj[i].name+"</h3>";
+	drinkday += "<h3><small>Sugestão do barman</small><br><img src='static/star.svg' class='icon-sugesta'> "+myObj[i].name+"</h3>";
 	drinkday += "<p class='card-text lead'>"+myObj[i].text+"</p>";
 	drinkday += "</div>";
 	drinkday += "</div>";
 	drinkday += "</div>";
 
 	drinkday += "<div class='card mb-5 mt-5 d-md-none d-block' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
-	drinkday += "<h3><small>Sugestão do barman</small><br><img src='static/star.256.png' class='icon-sugesta'> "+myObj[i].name+"</h3>";
+	drinkday += "<h3><small>Sugestão do barman</small><br><img src='static/star.svg' class='icon-sugesta'> "+myObj[i].name+"</h3>";
 	drinkday += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
 	drinkday += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
 	drinkday += "</div>";
