@@ -722,5 +722,37 @@
         "step": "Coloque o suco de pêssego na taça de champanhe e complete com prosecco."
       }
     ]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "text": "Criado na Itália, é uma espécie de irmão mais velho do Negroni, um pouco mais leve por levar água com gás na composição. Vale o brinde!",
+    "pic": "https://cdn.panelinha.com.br/receita/1376622000000-Americano.jpg",
+    "copyright": "panelinha.com.br",
+    "ingredients": [
+      {
+        "ingredient": "1 dose de vermute tinto (50 ml)"
+      },
+      {
+        "ingredient": "1 dose de Campari (50 ml)"
+      },
+      {
+        "ingredient": "1 rodela de limão-siciliano"
+      },
+      {
+        "ingredient": "água com gás ou Club soda para completar"
+      },
+      {
+        "ingredient": "gelo a gosto"
+      }
+    ],
+    "make": [
+      {
+        "step": "Encha um copo old fashioned com gelo e adicione o vermute e o Campari."
+      },
+      {
+        "step": "Complete o copo com a água com gás (ou Club soda) e enfeite com a rodela de limão. Sirva a seguir."
+      }
+    ]
   }
 ]

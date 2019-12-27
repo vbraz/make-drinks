@@ -22,7 +22,7 @@ function start(){
 
 function all(myObj){
 	document.getElementById("title").innerHTML = "Make Drinks";
-	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman? Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
+	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman?<br>Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
 	drinkday(myObj);
 	search();
 	var card = "<div class='card-columns' id='card-columns'>";
@@ -60,7 +60,7 @@ function detail(hash, myObj){
 	detail += "<hr class='mt-3 mb-3'>";
 	detail += "<h3>Modo de preparo</h3>"
 	detail += make;
-	if(myObj[i].obs) detail += "OBS: "+myObj[i].obs;
+	if(myObj[i].obs) detail += "<p>OBS: "+myObj[i].obs+"</p>";
 	detail += "<small>autor: "+myObj[i].copyright+"</small>";
 	detail += "<center>";
 	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 mr-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";
@@ -100,8 +100,7 @@ function working_search(){
 
 function drinkday(myObj){
 	var drinkday, rand;
-	i = Math.floor(Math.random() * 6);
-
+	i = Math.floor(Math.random() * 21);
 	drinkday = "<div class='card mb-5 mt-5 d-md-block d-none' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 	drinkday += "<div class='row no-gutters'>";
 	drinkday += "<div class='col-sm pr-3'>";
