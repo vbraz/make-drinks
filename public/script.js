@@ -101,13 +101,14 @@ function working_search(){
 function drinkday(myObj){
 	var drinkday, rand;
 	i = Math.floor(Math.random() * 22);
+	//i = getDate();
 	drinkday = "<div class='card mb-5 mt-5 d-md-block d-none' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 	drinkday += "<div class='row no-gutters'>";
 	drinkday += "<div class='col-sm pr-3'>";
 	drinkday += "<img src='"+myObj[i].pic+"' class='card-img shadow' alt='"+myObj[i].name+"'>";
 	drinkday += "</div>";
 	drinkday += "<div class='col-md-8'>";
-	drinkday += "<h3 class='card-title'><small>Sugestão do barman</small><br>"+myObj[i].name+"</h3>";
+	drinkday += "<h3 class='card-title'><small>Sugestão do Barman</small><br>"+myObj[i].name+"</h3>";
 	drinkday += "<p class='card-text lead'>"+myObj[i].text+"</p>";
 	drinkday += "</div>";
 	drinkday += "</div>";
