@@ -100,7 +100,7 @@ function working_search(){
 
 function drinkday(myObj){
 	var drinkday, rand;
-	i = Math.floor(Math.random() * 21);
+	i = Math.floor(Math.random() * 22);
 	drinkday = "<div class='card mb-5 mt-5 d-md-block d-none' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 	drinkday += "<div class='row no-gutters'>";
 	drinkday += "<div class='col-sm pr-3'>";
