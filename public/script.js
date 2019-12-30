@@ -43,6 +43,7 @@ function all(myObj){
 }
 
 function detail(hash, myObj){
+	
 	var detail = "", ingredient = "", make = "", count = 1;
 	for(var i = 0; i < myObj.length; i++) {
 		if(hash == "#"+myObj[i].id){
@@ -56,6 +57,7 @@ function detail(hash, myObj){
 			break;
 		}
 	}
+
 	hash = hash.replace("#","%23");
 	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
 	detail += "<h3>Ingredientes</h3>"
