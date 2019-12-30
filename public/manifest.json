@@ -14,8 +14,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }],
-  "start_url": "index.html",
+  "start_url": "http://make-drinks.web.app/",
   "display": "standalone",
   "background_color": "#333333",
-  "theme_color": "#F1F1F1"
+  "theme_color": "#F1F1F1",
+  "lang": "pt-BR",
+  "orientation": "portrait"
 }
