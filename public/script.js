@@ -23,7 +23,7 @@ function start(){
 }
 
 function all(myObj){
-	var i = Math.floor(Math.random() * 2);
+	var i = Math.floor(Math.random() * 5);
 	document.getElementById("title").innerHTML = "Make Drinks <img src='static/"+i+".svg' class='icon-title'>";
 	document.getElementById("subtitle").innerHTML = "Quer aprender como fazer drinks e coquetéis como um verdadeiro barman?<br>Explore o saboroso mundo do Make Drinks e descubra as melhores receitas.";
 	drinkday(myObj);
@@ -58,7 +58,6 @@ function detail(hash, myObj){
 	}
 	hash = hash.replace("#","%23");
 	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
-	//detail += "<img src='static/"+myObj[i].cup+".64.png' class='mb-3'>";
 	detail += "<h3>Ingredientes</h3>"
 	detail += ingredient;
 	detail += "<hr class='mt-3 mb-3'>";
@@ -71,7 +70,7 @@ function detail(hash, myObj){
 	detail += "<a href='https://wa.me/?text="+myObj[i].text+" \n https://make-drinks.web.app/"+hash+"' data-action='share/whatsapp/share' role='button' class='btn  btn-success mt-3 mb-3 rounded-pill'>whatsapp</a>";
 	detail += "</center>";
 
-	document.getElementById("title").innerHTML = myObj[i].name;
+	document.getElementById("title").innerHTML = myObj[i].name+"<img src='static/"+myObj[i].cup+".svg' class='icon-title'>";
 	document.getElementById("subtitle").innerHTML = myObj[i].text;
 	document.getElementById("detail").innerHTML += detail;
 }

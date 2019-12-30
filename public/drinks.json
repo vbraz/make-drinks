@@ -522,51 +522,6 @@
     "copyright": "panelinha.com.br",
     "ingredients": [
       {
-        "ingredient": "800 ml de água filtrada"
-      },
-      {
-        "ingredient": "4 saquinhos de chá mate"
-      },
-      {
-        "ingredient": "caldo de ½ limão"
-      },
-      {
-        "ingredient": "2 colheres (sopa) de açúcar"
-      },
-      {
-        "ingredient": "cubos de gelo a gosto"
-      },
-      {
-        "ingredient": "mate batido com limão gelado"
-      },
-      {
-        "ingredient": "250 ml de cachaça"
-      },
-      {
-        "ingredient": "2 latas de club soda (ou água tônica) geladas"
-      }
-    ],
-    "make": [
-      {
-        "step": "Coloque a água numa chaleira e leve ao fogo alto para ferver. Quando ferver, desligue o fogo, mergulhe os saquinhos de chá, tampe e deixe em infusão. Espere amornar e deixe na geladeira até ficar bem gelado."
-      },
-      {
-        "step": "Na hora de fazer os drinques, descarte os sachês e transfira o chá para o liquidificador. Junte o caldo do limão, o açúcar e cubos de gelo a gosto. Bata bem para triturar o gelo e transfira para uma jarra."
-      },
-      {
-        "step": "Numa taça de espumante coloque ½ dose de cachaça (cerca de 2 colheres (sopa)), preencha até a metade com o club soda e complete com o mate. Sirva a seguir."
-      }
-    ]
-  },
-  {
-    "id": "drinque-de-mate-limao-e-cachaca",
-    "name": "Drinque de Mate Limão e Cachaça",
-    "text": "A gente pegou o clima de praia brasileiro e colocou numa flute. A taça de espumante é perfeita para este drinque, que leva cachaça, mas é borbulhante! Perfeito para brindar.",
-    "pic": "https://cdn.panelinha.com.br/receita/1481508000000-Drinque-de-mate-limao-e-cachaca.jpg",
-    "cup": "0",
-    "copyright": "panelinha.com.br",
-    "ingredients": [
-      {
         "ingredient": "1 dose de rum branco (cerca de 50 ml)"
       },
       {
