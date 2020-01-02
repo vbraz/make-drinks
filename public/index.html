@@ -52,28 +52,30 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body onload="start();">
-
     <div class="container pb-4">
       <h1 class="pt-3 pb-0 text-center" id="title"></h1>
       <p class="lead mb-3 text-center" id="subtitle"></p>
       <div id="drinkday"></div>
       <div id="search"></div>
       <!-- ALL -->
-			<div id="all"></div>
+      <div id="all"></div>
       <!-- DETAIL -->
       <div id="detail"></div>
     </div>
-
+    <noscript>
+      <h1 class="pt-3 pb-0 text-center" id="title-noscript">Para o funcionamento do site deve ativar o javascript.</h1>
+    </noscript>
   </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
+<script src="install.js"></script>
 <script>
   if('serviceWorker' in navigator) {
     navigator.serviceWorker
              .register('sw.js')
              .then(function() { console.log("Service Worker Registered"); });
   }
-  </script>
+</script>

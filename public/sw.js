@@ -5,9 +5,12 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('make-drink').then(function(cache) {
      return cache.addAll([
-       'style.css',
-       'script.js',
-       'drinks.json'
+        'offline.html',
+        'index.html',
+        'style.css',
+        'script.js',
+        'drinks.json',
+        'static/.'
      ]);
    })
  );
