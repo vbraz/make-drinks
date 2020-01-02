@@ -33,7 +33,8 @@ function all(myObj){
 		//console.log(myObj[i].name);
 		card += "<div class='card col-3-md mb-4' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 		card += "<h3>"+myObj[i].name+"</h3>";
-		card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+		//card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+		card += "<img src='static/drink/webp/"+myObj[i].id+".webp' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
 		card += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
 		card += "</div>";
 	}
@@ -59,7 +60,8 @@ function detail(hash, myObj){
 	}
 
 	hash = hash.replace("#","%23");
-	detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
+	//detail += "<center><img src='"+myObj[i].pic+"' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
+	detail += "<center><img src='static/drink/webp/"+myObj[i].id+".webp' class='img-fluid mb-4 shadow' alt='Imagem de um "+myObj[i].name+"'></center>";
 	detail += "<h3>Ingredientes</h3>"
 	detail += ingredient;
 	detail += "<hr class='mt-3 mb-3'>";
@@ -113,7 +115,8 @@ function drinkday(myObj){
 	drinkday = "<div class='card mb-5 mt-5 d-md-block d-none' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 	drinkday += "<div class='row no-gutters'>";
 	drinkday += "<div class='col-sm pr-3'>";
-	drinkday += "<img src='"+myObj[i].pic+"' class='card-img shadow' alt='"+myObj[i].name+"'>";
+	//drinkday += "<img src='"+myObj[i].pic+"' class='card-img shadow' alt='"+myObj[i].name+"'>";
+	drinkday += "<img src='static/drink/webp/"+myObj[i].id+".webp' class='card-img shadow' alt='"+myObj[i].name+"'>";
 	drinkday += "</div>";
 	drinkday += "<div class='col-md-8'>";
 	drinkday += "<h3><small>Sugestão do barman</small><br><img src='static/star.svg' class='icon-sugesta'> "+myObj[i].name+"</h3>";
@@ -124,7 +127,8 @@ function drinkday(myObj){
 
 	drinkday += "<div class='card mb-5 mt-5 d-md-none d-block' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
 	drinkday += "<h3><small>Sugestão do barman</small><br><img src='static/star.svg' class='icon-sugesta'> "+myObj[i].name+"</h3>";
-	drinkday += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+	//drinkday += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+	drinkday += "<img src='static/drink/webp/"+myObj[i].id+".webp' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
 	drinkday += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
 	drinkday += "</div>";
 
