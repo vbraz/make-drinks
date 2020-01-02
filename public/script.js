@@ -78,9 +78,12 @@ function detail(hash, myObj){
 }
 
 function search(){
-	var search = "<form id='search'>";
-	search += "<div class='form-group mt-4 mb-5 sticky-top' data-spy='affix'>";
-	search += "<input type='search' id='insearch' class='form-control rounded-pill' onkeyup='working_search()' autocomplete='off' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
+	var element = document.getElementById("search");
+	element.classList.add("sticky-top");
+
+	var search = "<form id='search_form'>";
+	search += "<div class='form-group mt-4 mb-5' data-spy='affix'>";
+	search += "<input type='search' id='insearch' class='form-control shadow rounded-pill' onkeyup='working_search()' autocomplete='off' aria-describedby='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.' placeholder='Pesquisar... como por exemplo caipirinha, mojito, dry martin, entre outros.'>";
 	search += "</div>";
 	search += "</form>";
 	document.getElementById("search").innerHTML = search;
