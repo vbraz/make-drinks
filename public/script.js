@@ -31,11 +31,19 @@ function all(myObj){
 	var card = "<div class='card-columns' id='card-columns'>";
 	for(i = 0; i < myObj.length; i++) {
 		//console.log(myObj[i].name);
-		card += "<div class='card col-3-md mb-4' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
-		card += "<h3>"+myObj[i].name+"</h3>";
-		//card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
-		card += "<img src='static/drink/webp/"+myObj[i].id+".webp' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
-		card += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
+		//card += "<div class='card col-3-md mb-4' id='card' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
+		//card += "<h3>"+myObj[i].name+"</h3>";
+		////card += "<img src='"+myObj[i].pic+"' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+		//card += "<img src='static/drink/webp/"+myObj[i].id+".webp' class='card-img-top shadow mb-2' alt='"+myObj[i].name+"'>";
+		//card += "<p class='lead p-0 pt-1'>"+myObj[i].text+"</p>";
+		//card += "</div>";
+
+		card += "<div class='card bg-dark text-white' onclick=\"window.location.hash='"+myObj[i].id+"'; start();\">";
+		card += "<img src='static/drink/webp/"+myObj[i].id+".webp' class='card-img img-txt' alt='"+myObj[i].name+"'>";
+		card += "<div class='card-img-overlay'>";
+		card += "<h3 class='card-title'>"+myObj[i].name+"</h3>";
+		card += "<p class='card-text'>"+myObj[i].text+"</p>";
+		card += "</div>";
 		card += "</div>";
 	}
 	card += "</div>";

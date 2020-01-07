@@ -54,3 +54,9 @@ h3 {
 .sticky-top{
     top: 10px;
 }
+
+.img-txt{
+    filter: blur(1px);
+    filter: brightness(55%);
+    filter: brightness(50%);
+}
