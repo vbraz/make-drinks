@@ -50,7 +50,7 @@ function all(myObj){
 
 	document.getElementById("all").innerHTML += card;
 }
-
+ 
 function detail(hash, myObj){
 	
 	var detail = "", ingredient = "", make = "", count = 1;
@@ -78,8 +78,8 @@ function detail(hash, myObj){
 	if(myObj[i].obs) detail += "<p>OBS: "+myObj[i].obs+"</p>";
 	detail += "<small>autor: "+myObj[i].copyright+"</small>";
 	detail += "<center>";
-	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 mr-3 rounded-pill' onclick=\"window.location.hash=''; start();\">voltar</button> ";
-	detail += "<a href='https://wa.me/?text="+myObj[i].text+" \n https://make-drinks.web.app/"+hash+"' data-action='share/whatsapp/share' role='button' class='btn  btn-success mt-3 mb-3 rounded-pill'>whatsapp</a>";
+	detail += "<button type='button' class='btn btn-wb mt-3 mb-3 mr-3 rounded-pill' onclick=\"window.location.hash=''; start();\"><i class='fas fa-long-arrow-alt-left'></i> voltar</button> ";
+	detail += "<a href='https://wa.me/?text="+myObj[i].text+" \n https://make-drinks.web.app/"+hash+"' data-action='share/whatsapp/share' role='button' class='btn  btn-success mt-3 mb-3 rounded-pill'><i class='fab fa-whatsapp'></i> whatsapp</a>";
 	detail += "</center>";
 
 	document.getElementById("title").innerHTML = myObj[i].name+"<img src='static/"+myObj[i].cup+".svg' alt='icon drink' class='icon-title'>";
